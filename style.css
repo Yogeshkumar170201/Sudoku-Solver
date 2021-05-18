@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: linear-gradient(
+    45deg,
+    rgba(70, 130, 180, 0.4),
+    rgba(20, 142, 241, 0.1)
+  );
+}
+
+/* #initialBoard {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+#answerBoard {
+  margin-right: 10%;
+} */
+
+.wrapper {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin: 0px;
+  color: navy;
+}
+
+/* .ans {
+  border-top: 3px solid black;
+}
+
+.ansl {
+  border-bottom: 3px solid black;
+} */
+p {
+  font-size: 17px;
+}
+input {
+  font-size: 17px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
